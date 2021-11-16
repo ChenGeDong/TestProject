@@ -17,6 +17,7 @@ namespace MathSample
         public static Singleton Instance
         {
             get { return s_instance ?? (s_instance = new Singleton(42)); }
+            get { return s_instance ?? (s_instance = new Singleton(42)); }
         }
     }
 }
