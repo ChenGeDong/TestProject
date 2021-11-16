@@ -18,6 +18,18 @@ namespace StaticContructorSample
             else
             {
                 BackCorlor = Color.red;
+
+                BackCorlor = Color.red;
+                BackCorlor = Color.red;
+
+                BackCorlor = Color.red;
+
+                BackCorlor = Color.red;
+                BackCorlor = Color.red;
+                BackCorlor = Color.red;
+                BackCorlor = Color.red;
+                BackCorlor = Color.red;
+                BackCorlor = Color.red;
             }
         }
     }
