@@ -9,6 +9,7 @@ namespace StaticContructorSample
         private static readonly uint s_maxDocument;
         static DocumentEditor()
         {
+            
             //s_maxDocument = DoSomething
         }
     }
