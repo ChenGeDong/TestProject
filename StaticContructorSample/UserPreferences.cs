@@ -18,7 +18,7 @@ namespace StaticContructorSample
             else
             {
                 BackCorlor = Color.red;
-                BackCorlor = Color.green;
+                BackCorlor = Color.red;
             }
         }
     }
