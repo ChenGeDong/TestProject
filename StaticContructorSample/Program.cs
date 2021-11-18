@@ -7,8 +7,10 @@ namespace StaticContructorSample
     {
         static void Main(string[] args)
         {
-            WriteLine($"User-preferences:Backcolor is:{UserPreferences.BackCorlor}");
-            //Console.WriteLine("Hello World!");
+            //WriteLine($"User-preferences:Backcolor is:{UserPreferences.BackCorlor}");
+            ////Console.WriteLine("Hello World!");
         }
+
+        
     }
 }
