@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1705
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathSample", "MathSample\MathSample.csproj", "{BA5C3A9F-9FB2-4C0B-8E07-363D64C6EDD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathSample", "MathSample\MathSample.csproj", "{BA5C3A9F-9FB2-4C0B-8E07-363D64C6EDD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticContructorSample", "StaticContructorSample\StaticContructorSample.csproj", "{FD142074-15A5-4183-A227-71A32FADB6BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticContructorSample", "StaticContructorSample\StaticContructorSample.csproj", "{FD142074-15A5-4183-A227-71A32FADB6BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectAndType", "ObjectAndType", "{BDEB225E-DC7A-4D85-AA9A-231D977618BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
