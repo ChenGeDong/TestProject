@@ -6,13 +6,8 @@ namespace StaticContructorSample
 {
     public class Document
     {
-        private readonly DateTime _creationTime;
-        public Document()
-        {
-            _creationTime = DateTime.Now;
-        }
-
-            
+    
+         
 
     }
 }
