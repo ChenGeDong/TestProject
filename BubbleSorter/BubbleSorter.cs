@@ -11,7 +11,7 @@ namespace BubbleSorter
             bool swapped = true;
             do
             {
-                List<T>
+               
                 swapped = false;
                 for (int i = 0; i < sortArray.Count-1; i++)
                 {
