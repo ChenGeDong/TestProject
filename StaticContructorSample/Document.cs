@@ -6,8 +6,5 @@ namespace StaticContructorSample
 {
     public class Document
     {
-    
-         
-
     }
 }
