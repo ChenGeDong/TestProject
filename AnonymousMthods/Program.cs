@@ -23,13 +23,22 @@ namespace AnonymousMthods
         static void Main(string[] args)
         {
             string mid = ", middle part, ";
-            Func<string, string> anonDel = delegate (string param)
+            ////使用匿名方法实现委托
+            //Func<string, string> anonDel = delegate (string param)
+            // {
+            //     param += mid;
+            //     param += "and this was added to the string.";
+            //     return param;
+            // };
+            //使用lambda表达式实现
+            Func<string, string> anonDelLambda =  param =>
              {
                  param += mid;
                  param += "and this was added to the string.";
                  return param;
              };
-            WriteLine(anonDel("Start of string"));
+            // WriteLine(anonDel("Start of string"));
+            WriteLine(anonDelLambda("Start of string"));
         }
     }
 }
