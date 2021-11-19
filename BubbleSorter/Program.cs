@@ -13,10 +13,15 @@ namespace BubbleSorter
                     new Employee("Daffy Duck",25000),
                     new Employee("Wile Coyote",1000000.38m),
                     new Employee("Foghorn Leghorn",23000),
-                    new Employee("RoadRunner",25000)
+                    new Employee("RoadRunner",50000)
+                    
             };
 
             BubbleSorter.Sort(employees,Employee.CompareSalary);
+            foreach (var employee in employees)
+            {
+                WriteLine(employee);
+            }
             //Console.WriteLine("Hello World!");
         }
         
