@@ -4,7 +4,15 @@ using System.Text;
 
 namespace StaticContructorSample
 {
-    class Document
+    public class Document
     {
+        private readonly DateTime _creationTime;
+        public Document()
+        {
+            _creationTime = DateTime.Now;
+        }
+
+            
+
     }
 }

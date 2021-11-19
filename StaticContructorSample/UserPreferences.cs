@@ -13,12 +13,9 @@ namespace StaticContructorSample
             if(now.DayOfWeek == DayOfWeek.Saturday||now.DayOfWeek==DayOfWeek.Sunday)
             {
                 BackCorlor = Color.green;
-                BackCorlor = Color.green;
             }
             else
             {
-                BackCorlor = Color.red;
-                BackCorlor = Color.red;
                 BackCorlor = Color.red;
             }
         }
