@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C627A6DD-0EA4-428D-BE17-FD4262DF083B}</ProjectGuid>
+    <ProjectGuid>{50CC782E-C580-4E33-B579-5A513B9BB897}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MulticcastDelegates</RootNamespace>
-    <AssemblyName>MulticcastDelegates</AssemblyName>
+    <RootNamespace>AnonymousMthods</RootNamespace>
+    <AssemblyName>AnonymousMthods</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MathOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

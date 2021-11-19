@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C627A6DD-0EA4-428D-BE17-FD4262DF083B}</ProjectGuid>
+    <ProjectGuid>{3443771A-1FE6-4BA7-967C-EFFADF3F52AD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MulticcastDelegates</RootNamespace>
-    <AssemblyName>MulticcastDelegates</AssemblyName>
+    <RootNamespace>MulticastDelegateWithIteration</RootNamespace>
+    <AssemblyName>MulticastDelegateWithIteration</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MathOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
