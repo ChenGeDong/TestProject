@@ -24,7 +24,9 @@ namespace MulticcastDelegates
             ProcessAndDisplayNumber(operations,2.0);
             ProcessAndDisplayNumber(operations, 7.94);
             ProcessAndDisplayNumber(operations,1.141);
-   
+            
+
+
 
         }
 

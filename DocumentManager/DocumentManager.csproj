@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C627A6DD-0EA4-428D-BE17-FD4262DF083B}</ProjectGuid>
+    <ProjectGuid>{E5A06386-4662-4A7F-BC6F-592B31886B42}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MulticcastDelegates</RootNamespace>
-    <AssemblyName>MulticcastDelegates</AssemblyName>
+    <RootNamespace>DocumentManager</RootNamespace>
+    <AssemblyName>DocumentManager</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MathOperations.cs" />
+    <Compile Include="Document.cs" />
+    <Compile Include="DocumentManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Simple.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

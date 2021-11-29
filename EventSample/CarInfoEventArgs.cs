@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EventSample
 {
-    public class CarInfoEventArgs:EventArgs
+    public class CarInfoEventArgs : EventArgs
     {
         public CarInfoEventArgs(string car)
         {

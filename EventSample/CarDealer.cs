@@ -8,20 +8,20 @@ namespace EventSample
 {
     public class CarDealer
     {
-        public event EventHandler<CarInfoEventArgs> NewCarInfo;
+        private EventHandler<CarInfoEventArgs> newCarInfo;
 
         ////定义事件的长记法
-        //private event EventHandler<CarInfoEventArgs> NewCarInfo
-        //{
-        //    add
-        //    {
-        //        newCarInfo += value;
-        //    }
-        //    remove
-        //    {
-        //        newCarInfo -= value;
-        //    }
-        //}
+        public  event EventHandler<CarInfoEventArgs> NewCarInfo
+        {
+            add
+            {
+                newCarInfo += value;
+            }
+            remove
+            {
+                newCarInfo -= value;
+            }
+        }
         /// <summary>
         /// 动态创建订阅器时，为了避免出现资源泄露，必须特别留意事件。
         /// 也就是说，需要在订阅器离开作用域（不再需要它）之前，确保取消对事件的订阅，或者使用弱事件。
@@ -33,7 +33,7 @@ namespace EventSample
         public void NewCar(string car )
         {
             Console.WriteLine($"CarDealer,new car {car}");
-            NewCarInfo?.Invoke(this,new CarInfoEventArgs(car));
+            this.newCarInfo?.Invoke(this,new CarInfoEventArgs(car));
         }
 
     }

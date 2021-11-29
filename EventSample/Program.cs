@@ -31,7 +31,7 @@ namespace EventSample
         }
     }
 
-    //public class CarInfoEventArgs:EventArgs
+    //public class CarInfoEventArgs : EventArgs
     //{
     //    public CarInfoEventArgs(string car)
     //    {
@@ -55,9 +55,9 @@ namespace EventSample
     //    }
     //    public void NewCar(string car)
     //    {
-            
+
     //        WriteLine($"CarDealer,new car {car}");
-    //        NewCarInfo?.Invoke(this,new CarInfoEventArgs(car));
+    //        NewCarInfo?.Invoke(this, new CarInfoEventArgs(car));
     //    }
     //}
 }

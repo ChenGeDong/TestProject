@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C627A6DD-0EA4-428D-BE17-FD4262DF083B}</ProjectGuid>
+    <ProjectGuid>{6C34293F-2861-4122-A736-A8C707F1C734}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MulticcastDelegates</RootNamespace>
-    <AssemblyName>MulticcastDelegates</AssemblyName>
+    <RootNamespace>LinkedListObjectss</RootNamespace>
+    <AssemblyName>LinkedListObjectss</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MathOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Simple.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LinkedListObjects\LinkedListObjects.csproj">
+      <Project>{a95d854a-a2cc-40f0-89d2-42b64c38abaf}</Project>
+      <Name>LinkedListObjects</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
